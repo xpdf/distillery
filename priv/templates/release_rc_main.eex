@@ -66,7 +66,7 @@ export REL_DIR
 # The location of builtin command scripts
 RELEASE_LIBEXEC_DIR="$SCRIPT_DIR/libexec"
 # The location of consolidated protocol .beams
-CONSOLIDATED_DIR="${RELEASE_ROOT_DIR}/lib/${REL_NAME}-${REL_VSN}/consolidated"
+CONSOLIDATED_DIR="${RELEASE_ROOT_DIR}/lib/${$REL_NAME}-${$REL_VSN}/consolidated"
 export CONSOLIDATED_DIR
 # Path to start_erl.data
 START_ERL_DATA="${START_ERL_DATA:-$RELEASE_ROOT_DIR/releases/start_erl.data}"
